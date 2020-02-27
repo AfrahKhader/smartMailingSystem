@@ -1,0 +1,30 @@
+name: testing_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  intl: ^0.15.7
+  google_maps_flutter: ^0.5.23+1
+  location: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/pin.png
+    - images/unlock.png
+
+
+
